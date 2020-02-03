@@ -1,0 +1,55 @@
+/*****************about page*****************/
+#About {
+	width: 100%;
+	height: 40em;
+	position:relative ;
+	padding-top:50px;
+}
+
+#aboutPic1 {
+	width:30%;
+	height:40%;
+	float:left;
+}
+
+#aboutText1 {
+	width:30%;
+	height:auto;
+	border-width: 6px;
+	border-style: double;
+	border-color: rgba(255,229,180);
+	border-radius: 10px 40px 10px 40px;
+	background-color:white;
+	font-family:'Raleway', sans-serif;
+	margin-left:55%;
+	text-align:center;
+}
+
+#aboutPic2 {
+	width:30%;
+	height:40%;
+	float:right;
+}
+
+#aboutText2 {
+	width:30%;
+	height:auto;
+	border-width: 6px;
+	border-style: double;
+	border-color: rgba(255,229,180);
+	border-radius: 10px 40px 10px 40px;
+	background-color:white;
+	font-family:'Raleway', sans-serif;
+	margin-left:10%;
+	text-align:center;
+}
+
+.textHeader {
+	font-size: 30px;
+}
+
+.textBody {
+	font-size: 20px;
+	margin-left:20%;
+	margin-right:20%;
+}
