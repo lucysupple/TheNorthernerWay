@@ -28,7 +28,6 @@ body{
 	height:10%;
 	float:left;
 	padding-left:2%;
-	padding-top: 1%;
 }
 
 /*navigation buttons*/
@@ -36,11 +35,11 @@ body{
 	float:right;
 	color: #FFFFFF;
 	text-align: center;
-	padding: 1% 5%;
+	padding: 0 4%;
 	text-decoration: none;
-	font-size: 17px;
+	font-size: 20px;
 	position: relative;
-	margin-top: 5%;
+	margin-top: 3%;
 	font-family:'Raleway', sans-serif; 
 }
 
@@ -73,10 +72,10 @@ body{
 
 .Title{
 	display: inline-block;
+	text-align:center;
 	color:white;
-	font-size: 60px;	
+	font-size: 80px;	
 	position: absolute;
-	margin-top: 1%;
 	font-family: 'Roboto Mono', monospace;
 	top: 50%;
 	left: 50%;
@@ -132,3 +131,140 @@ body{
 	margin-bottom: 10px;
 	line-height: 200%;
 }
+
+/*****************home page*****************/
+#summaryAbout {
+	width: 100%;
+	height: 40em;
+	position:relative ;
+	padding-top:50px;
+}
+
+#aboutBox{
+	width: 55%;
+	height: 60%;
+	border-width: 6px;
+	border-style: double;
+	border-color: #BE8A60;
+	border-radius: 10px 40px 10px 40px;
+	background-color:white;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#mePhoto{
+	float:left;
+	position:relative;
+	left:12%;
+	top:5%;
+}
+
+#aboutMeTitle {
+	text-decoration:none;
+	font-size: 30px;
+	color:black;
+	font-family:'Raleway', sans-serif;
+}
+
+#aboutMeSummary {
+	text-decoration:none;
+	color:black;
+	font-family:'Raleway', sans-serif;
+	font-size: 20px;
+	margin-left:20%;
+	margin-right:20%;
+}
+
+#tagLinePic {
+	margin-left:80%;
+}
+
+/*****************about page*****************/
+#About {
+	width: 100%;
+	height: 40%;
+	padding-top:50px;
+	position:relative;
+}
+
+#parachutePic {
+	height:70%;
+	width:25%;
+	margin-left:10%;
+	float:left;
+	position:relative;
+	padding:20px 20px;
+}
+
+#aboutText1 {
+	width:30%;
+	height:100%;
+	border-width: 6px;
+	border-style: double;
+	border-color: rgba(255,229,180);
+	border-radius: 10px 40px 10px 40px;
+	background-color:white;
+	margin-left:55%;
+	position:relative;
+	top:5%;
+}
+
+#aboutText2 {
+	width:30%;
+	height:auto;
+	border-width: 6px;
+	border-style: double;
+	border-color: rgba(255,229,180);
+	border-radius: 10px 40px 10px 40px;
+	background-color:white;
+	margin-left:10%;
+	position:relative;
+}
+
+#germanyPic {
+	float:right;
+	position:relative;
+	left:12%;
+	top:20%;
+	height:50%;
+	width:30%;
+	margin-right:26%;
+}
+
+.textHeader {
+	font-size: 30px;
+	text-align:center;
+}
+
+.textBody {
+	font-size: 20px;
+	margin-left:20%;
+	margin-right:20%;
+	font-family:'Raleway', sans-serif;
+	text-align:center;
+}
+
+/*****************blog page*****************/
+#chooseBlog {
+	width: 100%;
+	height: 40em;
+	position:relative ;
+	padding-top:50px;
+}
+
+.blog {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #BE8A60;
+	border-radius: 10px 10px 10px 10px;
+	background-color:white;
+	width: 20%;
+	height: 40%;
+	float:left;
+	position: relative;
+	margin-top: 2%;
+	margin-left:4%;
+}
+
+/*****************portfolio page*****************/
