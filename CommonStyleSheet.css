@@ -23,14 +23,12 @@ body{
 	width: 100%;
 }
 
-.Title{
-	display: inline-block;
-	color:white;
-	padding: 25px 20px;
-	font-size: 40px;	
-	position: relative;
-	margin-top: 1%;
-	font-family:'Raleway', sans-serif;
+.logo {
+	width:10%;
+	height:10%;
+	float:left;
+	padding-left:2%;
+	padding-top: 1%;
 }
 
 /*navigation buttons*/
@@ -49,13 +47,12 @@ body{
 /* navigation buttons on hover */
 .NavBar a:hover {
 	cursor: pointer; /* add cursor or all links */
-	background-color:#2c0707 ;
 	color: white;
 }
 
 /* navigation buttons active/current link */
 .NavBar a.active {
-  background-color: #4CAF50;
+  text-decoration:line-through;
   color: white;
 }
 
@@ -74,6 +71,18 @@ body{
 	overflow:hidden;
 }
 
+.Title{
+	display: inline-block;
+	color:white;
+	font-size: 60px;	
+	position: absolute;
+	margin-top: 1%;
+	font-family: 'Roboto Mono', monospace;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 /*****************instagram on every page*****************/
 .Instagram{
 	width: 100%;
@@ -85,18 +94,33 @@ body{
 	float:left;
 }
 
+.image {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #BE8A60;
+	border-radius: 10px 10px 10px 10px;
+	background-color:white;
+	width: 20%;
+	height: 80%;
+	float:left;
+	position: relative;
+	margin-top: 2%;
+	margin-left:4%;
+}
+
 /*****************footer on every page*****************/
 .footer{
 	background-color: black;
 	color:white;
 	width:100%;
 	bottom:0;
-	position:relative;
+	position:static;
 	height:240px;
 	float:left;
 }
 
 .footerList{
+	float:left;
 	list-style-type:none;
 	padding: 20px 10px;
 }

@@ -4,40 +4,44 @@
 		<link rel="stylesheet" href="CommonStyleSheet.css" type="text/css">
 		<link rel="stylesheet" href="HomePageStyleSheet.css" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script src="js/JQueryScripts.js"></script>
 		<title>Home Page</title>
 	</head>
 	<body>
 		<div class="NavBar">
-			<h1 class="Title">The Northerner Way</h1>
-			<a href="Portfolio.html"> Portfolio </a>
+			<img src="logo.png" class="logo"/>
+			<a href="Portfolio.html" > Portfolio </a>
 			<a href="Blog.html"> Blog </a>
 			<a href="About.html"> About </a>
-			<a href="Home Page.html" > Home </a>
+			<a href="Home Page.html" class="active"> Home </a>
 		</div>
-		
 		<div class="ImageDiv">
 			<img src="mountainBgPic.jpg" class="homePic"/>
+			<p class="Title">The Northerner Way</p>
 		</div>
-		<div class="summaryAbout">
-			<div id="mePhoto">
-				<img src="MePhoto.png"/>
-			</div>
-			<div class="aboutBox">
+		<div id="summaryAbout">
+			<img src="MePhoto.png" id="mePhoto"/>
+			<div id="aboutBox">
 				<h1 id="aboutMeTitle"> All About me </h1>
 				<p id="aboutMeSummary"> 
 					I'm Lucy, and I'm from a small Lancashire town. After studying for what seems like forever,
 					I decided to discover who I am and explore the world, whilst continuing my passion for 
 					programming. 
 				</p>
-				<div id="tagLinePic">
-					<img src="TagLine.png"/>
-				</div>
+				<img src="TagLine.png" id="tagLinePic"/>
 			</div>
 		</div>
 		<div class="Instagram">
-		
+			<div class="image">
+			</div>
+			<div class="image">
+			</div>
+			<div class="image">
+			</div>
+			<div class="image">
+			</div>
 		</div>
 		<div class="footer">
 			<ul class="footerList">
